@@ -1,0 +1,127 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Martian+Mono&display=swap');
+
+/* Define Fonts */
+body {
+    font-family: "Martian Mono", monospace;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 200px;
+}
+
+/* Add Background Gradient */
+body {
+    background: linear-gradient(to right bottom, #0d1b2a, #1a2937);
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.header-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5C39;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+}
+
+.create-access-key-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.access-key-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.access-key-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+    font-family: "Martian Mono", monospace;
+}
+
+.access-key-input:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(255, 92, 57, 0.7);
+}
+
+.access-key-input::placeholder {
+    color: #aaa;
+}
+
+/* Technology Section */
+.technology-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Martian Mono", monospace;
+}
+
+.tech-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tech-list-item {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.tech-list-item:hover {
+    transform: scale(1.1);
+}
+
+
