@@ -16,8 +16,8 @@ spring:
   mail:
     host: smtp.example.com
     port: 587
-    username: YOUR_EMAIL_ADDRESS
-    password: YOUR_APP_PASSWORD
+    username: YOUR_USER_NAME
+    password: YOUR_PASSWORD
     properties:
       mail:
   mvc:

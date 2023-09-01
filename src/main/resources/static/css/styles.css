@@ -84,6 +84,7 @@ body {
 .access-key-input:focus {
     outline: none;
     box-shadow: 0 0 4px rgba(255, 92, 57, 0.7);
+    border: solid 1px #FF5C39;
 }
 
 .access-key-input::placeholder {
@@ -123,5 +124,52 @@ body {
 .tech-list-item:hover {
     transform: scale(1.1);
 }
+
+/* Code Editor Styles */
+.code-editor {
+    background-color: #1e1e1e;
+    color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: "Courier New", monospace;
+    overflow: hidden;
+    white-space: pre-wrap;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    text-align: left;
+    width: auto;
+    font-size: 14px;
+    height: 250px;
+}
+
+.contact-form-html {
+    width: auto;
+    padding: 5px;
+    color: #9cdcfe;
+}
+
+.key-gen-response {
+    font-family: "Martian Mono", monospace;
+    color: white;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+
 
 

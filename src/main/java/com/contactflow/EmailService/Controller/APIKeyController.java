@@ -30,7 +30,7 @@ public class APIKeyController {
         if (!isRegistered) {
             String apiKey = apiKeyService.generateAndSaveApiKey(emailRequest.getEmail());
             emailService.sendEmail(emailRequest.getEmail(), "ContactFlo - SECRET KEY", apiKey);
-            return new ResponseEntity<>(apiKey, HttpStatus.OK);
+            return new ResponseEntity<>("API Key sent to your E-mail", HttpStatus.OK);
         } else {
             return new ResponseEntity<>("API Key already Generated", HttpStatus.OK);
         }
